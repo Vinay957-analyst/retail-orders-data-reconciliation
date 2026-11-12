@@ -1,0 +1,2 @@
+order_id,customer_id,product_id,quantity,unit_price,total_amount,order_status,order_timestamp
+ORD_EXTRA_0001,CUST0213,PROD0131,5,420.32,2101.6,returned,2026-01-01T00:07:00Z

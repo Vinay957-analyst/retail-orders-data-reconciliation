@@ -1,0 +1,2 @@
+order_id,mismatch_fields,differences_json
+ORD0000009,"quantity,total_amount","{""quantity"": {""source"": 2, ""target"": 3}, ""total_amount"": {""source"": 504.26, ""target"": 756.39}}"

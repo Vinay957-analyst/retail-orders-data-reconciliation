@@ -1,0 +1,22 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+
+# IDE settings
+.vscode/
+
+# Generated database
+outputs/*.db
+outputs/*.db-journal
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db

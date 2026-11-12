@@ -1,0 +1,2 @@
+order_id,customer_id,product_id,quantity,unit_price,total_amount,order_status,order_timestamp,reject_reason
+ORD_TARGET_BAD_REF,CUST9999,PROD0131,5,420.32,2101.6,returned,2026-01-01T00:07:00Z,invalid_customer_reference

@@ -1,0 +1,7 @@
+order_id,customer_id,product_id,quantity,unit_price,total_amount,order_status,order_timestamp,reject_reason
+ORD0000001,CUST0336,PROD0169,6,444.34,2666.04,pending,2026-01-01T00:01:00Z,duplicate_order_id
+ORD0000003,,PROD0008,5,461.32,2306.6,cancelled,2026-01-01T00:02:00Z,missing_required_customer_id; invalid_customer_reference
+ORD0000004,CUST0481,PROD9999,4,256.78,1027.12,cancelled,2026-01-01T00:03:00Z,invalid_product_reference
+ORD0000005,CUST0353,PROD0161,0,264.93,1059.72,returned,2026-01-01T00:04:00Z,quantity_out_of_range_or_not_integer; total_amount_calculation_mismatch
+ORD0000006,CUST0186,PROD0191,7,,2813.58,returned,2026-01-01T00:05:00Z,invalid_or_missing_unit_price
+ORD0000007,CUST0300,PROD0051,1,164.08,99999.99,completed,2026-01-01T00:06:00Z,total_amount_calculation_mismatch

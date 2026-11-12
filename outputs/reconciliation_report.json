@@ -1,0 +1,50 @@
+{
+    "project_name": "Retail Orders Data Reconciliation",
+    "run_id": "d8297c03-8804-4b95-b5ae-6b737b666830",
+    "generated_at": "2026-11-12T14:22:32.232525+00:00",
+    "input_files": {
+        "source_file": "data/generated/source_orders.csv",
+        "target_file": "data/generated/target_orders.csv"
+    },
+    "data_quality": {
+        "source_rejected_count": 6,
+        "target_rejected_count": 1
+    },
+    "reconciliation": {
+        "source_row_count": 994,
+        "target_row_count": 994,
+        "common_key_count": 993,
+        "source_only_count": 1,
+        "target_only_count": 1,
+        "field_mismatch_record_count": 1,
+        "aggregates": {
+            "quantity": {
+                "source_sum": 3997.0,
+                "target_sum": 3998.0,
+                "difference": -1.0,
+                "match": false
+            },
+            "total_amount": {
+                "source_sum": 1016805.57,
+                "target_sum": 1017057.7,
+                "difference": -252.13,
+                "match": false
+            }
+        },
+        "checks": {
+            "row_count_match": true,
+            "business_keys_match": false,
+            "aggregates_match": false,
+            "field_values_match": false
+        },
+        "status": "FAIL"
+    },
+    "output_files": {
+        "source_rejects": "source_rejects.csv",
+        "target_rejects": "target_rejects.csv",
+        "source_only": "source_only.csv",
+        "target_only": "target_only.csv",
+        "field_mismatches": "field_mismatches.csv"
+    },
+    "final_status": "FAIL"
+}

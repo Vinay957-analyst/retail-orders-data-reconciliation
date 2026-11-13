@@ -32,7 +32,6 @@ Yottaflex/
 │       └── target_orders.csv
 │
 ├── outputs/
-│   ├── reconciliation.db
 │   ├── reconciliation_report.json
 │   ├── source_rejects.csv
 │   ├── target_rejects.csv
@@ -58,7 +57,10 @@ Yottaflex/
 │   ├── test_reporting.py
 │   └── test_pipeline.py
 │
+├── .gitignore
 ├── DATA_DICTIONARY.md
+├── DESIGN.md
+├── PROMPT_HISTORY.md
 ├── README.md
 └── requirements.txt
 ```
